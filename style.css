@@ -1,0 +1,117 @@
+
+
+.item1 { 
+  grid-area: header; 
+  
+  display: flex;
+  flex-direction: column;
+  background-color: #00FF7F;
+  
+
+}
+
+
+.item2 { 
+  grid-area: menu; 
+
+  background-color: #B0C4DE;
+
+
+ }
+
+.item3 { 
+  grid-area: main; 
+  margin-left: 1px;
+  color: white;
+
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #000000;
+  padding: 10px;
+}
+
+.grid-container > div {
+  
+    padding: 20px 0;
+  
+}
+
+img {
+  border-radius: 200px;
+
+}
+
+h6, a{
+  line-height: 1.4;
+  text-align: left;
+  font-size: 16px;
+
+}
+
+h2 {
+ 
+  text-align: left;
+  font-size: 30px
+
+
+}
+
+a:link{
+  text-decoration: none;
+
+}
+
+.Job {
+  text-align: center;
+  font-size: 20px;
+
+}
+
+p, ul {
+  text-align: left;
+  font-size: 12px
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+h1 {
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 70px;
+}
+
+.mits, .anr, .geophysx, .uwi, .wolmers{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.geophysx > div {
+  padding-right: 40px;
+}
+
+.mits > div {
+  padding-right: 40px;
+}
+
+.anr > div {
+  padding-right: 115px;
+}
+
+.uwi > div {
+  padding-right: 40px;
+}
+
+.wolmers > div {
+  padding-right: 65px;
+}
+
+
